@@ -21,7 +21,7 @@ body {
     --bg-color: #ebebeb;
     --snd-bg-color: #262840;
     --text-color: #000000;
-    --main-color: #75b3ff;
+    --main-color: #6c63ff;
 }
 
 html {
@@ -39,7 +39,8 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: auto;
     padding: 10rem 9% 2rem;
 }
 
@@ -197,7 +198,8 @@ section {
 }
 
 .about-content p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin: 2rem 0 3rem;
 }
 
@@ -226,10 +228,15 @@ section {
 
 .project-box img {
     width: 100%;
+    aspect-ratio: 16/9;
     transition: 0.5s ease;
     opacity: 0.7;
 }
 
+.project-box a{
+    width: auto;
+    background: transparent;
+}
 .project-box:hover img {
     transform: scale(1.1);
 }
@@ -258,11 +265,12 @@ section {
 
 .project-layer h4 {
     font-size: 3rem;
-
+    color: var(--bg-color);
 }
 
 .project-layer p {
     font-size: 1.6rem;
+    color: var(--bg-color);
 }
 
 .project-layer a {
@@ -271,13 +279,12 @@ section {
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
     border-radius: 50%;
 }
 
 .project-layer a i {
     font-size: 2rem;
-    color: var(--snd-bg-color);
+    color: var(--bg-color);
 }
 
 
