@@ -31,3 +31,21 @@ window.onscroll = () =>{
     menuIcon.classList.remove('fa-x')
     navbar.classList.remove('active')
 }
+
+
+
+ScrollReveal({ distance: '80px',duration:2000,delay:200});
+
+ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .project-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+
+
+let typed = new Typed('.typing-text', {
+    strings: ['Full Stack Developer', 'MERN Stack Developer', 'Learner'],
+    typeSpeed: 50,
+    backSpeed:70,
+    backDelay:1000,
+    loop:true,
+  });
