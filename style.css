@@ -410,6 +410,12 @@ section {
         display: block;
     }
 
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
     .home {
         flex-direction: column;
     }
@@ -454,8 +460,12 @@ section {
         grid-template-columns: repeat(1, 1fr);
     }
     .home-img img{
-        width: 80vw;
-        margin-top: 8rem;
+        width: 50vw;
+        margin-top: 0rem;
+    }
+
+    .home-content h3{
+        font-size: 1.5rem;
     }
     .about-img img{
         width: 100vw;

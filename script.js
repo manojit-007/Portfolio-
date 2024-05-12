@@ -1,9 +1,10 @@
-let menuIcon = document.querySelector('#menu-icon')
+let menuIcon = document.querySelector('#menu_icon')
 let navbar =  document.querySelector('.navbar')
 
 menuIcon.onclick = () =>{
-    menuIcon.classList.toggle('fa-x')
-    navbar.classList.toggle('active')
+    menuIcon.classList.toggle('fa-bars');
+    menuIcon.classList.toggle('fa-x');
+    navbar.classList.toggle('active');
 }
 
 let sections = document.querySelectorAll('section')
