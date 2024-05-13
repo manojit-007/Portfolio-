@@ -51,38 +51,3 @@ let typed = new Typed('.typing-text', {
 });
 
 
-
-// function sendEmail() {
-//     Email.send({
-//         Host : "smtp.gmail.com",
-//         Username : "monodemo2024@gmail.com",
-//         Password : "sdyombetignbtnkp",
-//         To : 'monojitpc2022@gmail.com',
-//         From : document.getElementById("email").value,
-//         Subject :  document.getElementById("topic").value,
-//         Body : document.getElementById("message").value
-//     }).then(
-//       message => alert(message)
-//     );
-// }
-
-
-//   <form onsubmit="sendEmail(); reset(); return false">
-// <div class="input-box">
-//     <input type="text" id="name" placeholder="Full name">
-//     <input type="email" id="email" placeholder="Email">
-
-// </div>
-// <div class="input-box">
-//     <input type="number" id="phone_no" placeholder="Phone number">
-//     <input type="text" id="topic" placeholder="Subject">
-// </div>
-// <textarea name="" id="message" placeholder="Message"></textarea>
-// <input type="submit" value="send message" class="btn">
-// </form>
-
-// SMPT_SERVICE="gmail"
-// SMPT_MAIL="monodemo2024@gmail.com"
-// SMPT_PASSWORD="sdyombetignbtnkp"
-// SMPT_HOST="smtp.gmail.com"
-// SMPT_PORT=465
